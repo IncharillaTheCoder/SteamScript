@@ -98,17 +98,11 @@ def run_file(filename):
         print("💡 Maybe your tea went cold? Try a different filename.")
         return
     
-    print(f"🚂 STEAMSCRIPT: Brewing {filename}...")
-    print("=" * 50)
-    
     with open(filename, 'r') as file:
         code = file.read()
     
     interpreter = SteamScriptInterpreter()
     interpreter.interpret(code)
-    
-    print("=" * 50)
-    print("🏁 PROGRAM FINISHED - Time for a cozy break! 🫖")
 
 def main():
     if len(sys.argv) != 2:
