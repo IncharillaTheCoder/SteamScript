@@ -14,4 +14,4 @@ What resulted was a language that reflects a deep appreciation for:
 - 🤗 **Gentle error handling** that feels like friendly advice
 - 🎨 **Whimsical syntax** that sparks joy
 
--# this readme was also made by ai
+### this readme was also made by ai
